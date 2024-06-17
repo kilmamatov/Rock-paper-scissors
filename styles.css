@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f3f3f3;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.badge {
+    background: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+#user-score, #comp-score {
+    font-size: 2em;
+}
+
+.result {
+    margin-bottom: 20px;
+}
+
+.result p {
+    font-size: 1.5em;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choice {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}
+
+.choice img {
+    width: 100px;
+    height: 100px;
+}
